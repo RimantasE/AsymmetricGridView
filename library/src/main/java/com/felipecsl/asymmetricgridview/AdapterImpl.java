@@ -187,8 +187,8 @@ final class AdapterImpl implements View.OnClickListener, View.OnLongClickListene
     }
 
     layout.setShowDividers(LinearLayout.SHOW_DIVIDER_NONE);
-    layout.setDividerDrawable(
-        ContextCompat.getDrawable(context, R.drawable.item_divider_horizontal));
+//    layout.setDividerDrawable(
+//        ContextCompat.getDrawable(context, R.drawable.item_divider_horizontal));
 
     AbsListView.LayoutParams layoutParams = new AbsListView.LayoutParams(
         AbsListView.LayoutParams.MATCH_PARENT, AbsListView.LayoutParams.WRAP_CONTENT);
@@ -251,8 +251,8 @@ final class AdapterImpl implements View.OnClickListener, View.OnLongClickListene
       }
 
       childLayout.setShowDividers(LinearLayout.SHOW_DIVIDER_NONE);
-      childLayout.setDividerDrawable(
-          ContextCompat.getDrawable(context, R.drawable.item_divider_vertical));
+//      childLayout.setDividerDrawable(
+//          ContextCompat.getDrawable(context, R.drawable.item_divider_vertical));
 
       childLayout.setLayoutParams(new AbsListView.LayoutParams(
           AbsListView.LayoutParams.WRAP_CONTENT,
